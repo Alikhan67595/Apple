@@ -11,10 +11,15 @@ body{
     font-family: inter;
 }
 
+body a {
+    text-decoration: none;
+    color: black;
+}
+
 .contain{
     width: 100%;
     background-color: #1d1d1f;
-    position: absolute;
+    /* position: relative; */
     height:44px;
 
 }
@@ -24,11 +29,15 @@ nav{
     height: 44px;
     color: #d9d9d9;
     /* background-color: #444445c8; */
-    background-color: #09090ac8;
+    background-color: #09090ad0;
     position: fixed;
+    top: 0%;
 }
 
 .nav-div{
+    /* background-color: rgb(180, 182, 182); */
+    height: 44px;
+    display: flex;
     max-width: 1024px;
     margin: auto;
 }
@@ -37,14 +46,22 @@ nav{
     display: flex;
     list-style-type: none;
     width: 100%;
+    height: 44px;
     justify-content: space-between;
     align-items: center;
-    margin: 12px 25px;
     font-size: 12px;
+    padding-right: 25px;
+    position: relative;
 }
 .nav-div ul a{
     color:#d9d9d9;
 }
+
+.none{
+    display: none;
+}
+
+
 
 
 
@@ -53,8 +70,26 @@ nav{
         display:none
     }
 
-    .nav-div{
+    .none{
+        display: inline;
+        position: absolute;
+        right: 15px;
+    }
 
+    .search{
+        display: inline;
+        position: absolute;
+        right:80px ;
+    }
+    .bag{
+        display: inline;
+        position: absolute;
+        right: 47px;
+    }
+    .logo{
+        display: inline;
+        position: absolute;
+        left: 15px;
     }
     
 }

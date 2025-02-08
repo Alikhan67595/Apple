@@ -1,32 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style/main.css">
     <title>Apple</title>
 </head>
+
 <body>
+
+    <!-- Nav Bar Content -->
     <div class="contain"></div>
-    <nav>
+    <nav class="navbar-dark">
         <div class="nav-div">
             <ul>
-                <li><a href="#"><img src="./assets/nav icons/apple.svg" alt=""></a></li>
-                <li class="li-hide" ><a href="#">Store</a></li>
-                <li class="li-hide" ><a href="#">Mac</a></li>
-                <li class="li-hide" ><a href="#">iPad</a></li>
-                <li class="li-hide" ><a href="#">iPhone</a></li>
-                <li class="li-hide" ><a href="#">Watch</a></li>
-                <li class="li-hide" ><a href="#">Vision</a></li>
-                <li class="li-hide" ><a href="#">AirPods</a></li>
-                <li class="li-hide" ><a href="#">TV & Home</a></li>
-                <li class="li-hide" ><a href="#">Entertainment</a></li>
-                <li class="li-hide" ><a href="#">Accessories</a></li>
-                <li class="li-hide" ><a href="#">Support</a></li>
-                <li><a href="#"><img src="./assets/nav icons/search.svg" alt="search"></a></li>
-                <li><a href="#"><img src="./assets/nav icons/bag.svg" alt="bag"></a></li>
+
+                <li class="logo"><a href="#"><img src="./assets/nav icons/apple.svg" alt=""></a></li>
+                <li class="li-hide"><a href="#">Store</a></li>
+                <li class="li-hide"><a href="#">Mac</a></li>
+                <li class="li-hide"><a href="#">iPad</a></li>
+                <li class="li-hide"><a href="#">iPhone</a></li>
+                <li class="li-hide"><a href="#">Watch</a></li>
+                <li class="li-hide"><a href="#">Vision</a></li>
+                <li class="li-hide"><a href="#">AirPods</a></li>
+                <li class="li-hide"><a href="#">TV & Home</a></li>
+                <li class="li-hide"><a href="#">Entertainment</a></li>
+                <li class="li-hide"><a href="#">Accessories</a></li>
+                <li class="li-hide"><a href="#">Support</a></li>
+                <li class="search"><a href="#"><img src="./assets/nav icons/search.svg" alt="search"></a></li>
+                <li class="bag"><a href="#"><img src="./assets/nav icons/bag.svg" alt="bag"></a></li>
+                <li class="none about">
+                    <div class="box">
+
+                        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                            data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+
+                        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"
+                            aria-labelledby="offcanvasDarkNavbarLabel">
+
+
+                            <div class="offcanvas-header ">
+                                <button type="button" class="btn-close btn-close-white " data-bs-dismiss="offcanvas"
+                                    aria-label="Close"></button>
+                            </div>
+
+
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active list-but" aria-current="page" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active list-but" aria-current="page" href="#">About
+                                            Us</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active list-but" aria-current="page"
+                                            href="#">Publications</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link active list-but" aria-current="page" href="#">Get a
+                                            Franchise</a>
+                                    </li>
+                            </div>
+                        </div>
+                </li>
             </ul>
-    </div>
+        </div>
     </nav>
+
+    <!-- Main Conttent Start -->
+    <main>
+
+        <!-- First Image Work-->
+
+        <a href="#">
+            <div class="img1">
+                <div class="img1-contain">
+                    <img src="./assets/herobowl/herobowl logo.png" alt="">
+                    <p>Get ready for kendrick. <br>
+                    Play his hits before Kickoff.</p>
+                    <div class="button-img">
+                        <a href="#">
+                            <div class="but-img img-but1">Stream now</div>
+                        </a>
+                        <a href="#">
+                            <div class="but-img img-but2">Watch the preview</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        
+        <!-- Second Image Work -->
+
+        <a href="#">
+            <div class="img2">
+                <div class="img2-contain">
+                    <h1>iPhone 16 Pro</h1>
+                    <h3>Hello, Apple Intelligence.</h3>
+                    <div class="button-img">
+                    <a href="#"><div class="but-img2 img2-but1">Learn more</div></a>
+                    <a href="#"><div class="but-img2 img2-but2">Buy</div></a>
+                    </div>
+                </div>
+            </div>
+        </a>
+
+
+
+
+
+
+
+
+        <a href="">
+            <div class="img3"></div>
+        </a>
+        <a href="">
+            <div class="img4"></div>
+        </a>
+        <a href="">
+            <div class="img5"></div>
+        </a>
+        <a href="">
+            <div class="img6"></div>
+        </a>
+        <a href="">
+            <div class="img7"></div>
+        </a>
+        <a href="">
+            <div class="img8"></div>
+        </a>
+        <a href="">
+            <div class="img9"></div>
+        </a>
+
+
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
